@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-color: whitesmoke;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin: 0 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: gray;
+}
+
+nav .left{
+    font-size: 1.5rem;
+    color: black;
+    margin: 0.5rem;
+    padding:2px;
+}
+
+nav .left img{
+    max-width: 30px;
+    height: auto;
+}
+
+nav .right{
+    font-size: 1rem;
+}
+
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 0;
+}
+.leftSection{
+    font-size: 2rem;
+}
+
+.purple{
+    color:red;
+}
+
+.rightSection img{
+    max-width: 500px;
+    height: auto;
+    border-radius: 1;
+}
+#element{
+    color: blueviolet;
+}
+hr{
+    margin-bottom: 1rem;
+}
+.projects{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.p1box{
+    max-width: 60%;
+    height: auto;
+    background-color: white;
+    color: black;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.p2box{
+    max-width: 60%;
+    height: auto;
+    background-color: white;
+    color: black;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.p3box{
+    max-width: 60%;
+    height: auto;
+    background-color: white;
+    color: black;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+projectSet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #9c97f1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #7f75d9;
+}
+
+.contact{
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.foot{
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+}
+
+.foot a{
+    text-decoration: none;
+}
+
+
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+}
+.leftPhoto img{
+    width: 300px;
+    height:auto;
+}
+
+.rightText{
+    font-size: 1.5rem;
+    color: white
+}
